@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <div>
-     
+     <h1>local storage</h1>
     </div>
   )
 }
