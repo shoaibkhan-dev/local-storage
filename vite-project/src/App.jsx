@@ -33,7 +33,9 @@ const App = () => {
   const data = JSON.parse(localStorage.getItem('data'))
   console.log(data)
   
-
+localStorage.setItem('person', JSON.stringify(person))
+  const dataa = JSON.parse(localStorage.getItem('data'))
+  console.log(dataa)
 
   
 
@@ -45,6 +47,7 @@ const App = () => {
   return (
     <div>
      <h1>local storage</h1>
+     <h2>l</h2>
     </div>
   )
 }
