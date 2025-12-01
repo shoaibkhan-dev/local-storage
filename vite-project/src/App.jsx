@@ -37,7 +37,13 @@ localStorage.setItem('person', JSON.stringify(person))
   const dataa = JSON.parse(localStorage.getItem('data'))
   console.log(dataa)
 
-  localStorage.clear()
+  localStorage.clear() 
+
+  localStorage.setItem('name', 'shoaib khan')
+  localStorage.setItem('age', 23)
+  const users = localStorage.getItem('users')
+  console.log(users)
+  console.log(object)
 
   
 
