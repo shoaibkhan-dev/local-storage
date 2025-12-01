@@ -43,7 +43,7 @@ localStorage.setItem('person', JSON.stringify(person))
   localStorage.setItem('age', 23)
   const users = localStorage.getItem('users')
   console.log(users)
-  console.log(object)
+  console.log(user)
 
   
 
