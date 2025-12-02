@@ -45,7 +45,7 @@ localStorage.setItem('person', JSON.stringify(person))
   console.log(users)
   console.log(users)
 
-  
+  localStorage.clear() 
 
 
 
