@@ -67,8 +67,10 @@ onsole.log(age)
 onsole.log(learn)
 
 let ages = 20;
-if(age >= 20){
-  console.log('correct')
+if(ages >= 20){
+  console.log('eligible')
+}else{
+   console.log('uneligible')
 }
 
 }
