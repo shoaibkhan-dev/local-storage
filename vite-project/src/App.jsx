@@ -66,6 +66,11 @@ console.log(name)
 onsole.log(age)
 onsole.log(learn)
 
+let ages = 20;
+if(age >= 20){
+  console.log('correct')
+}
+
 }
 
 export default App;
